@@ -19,7 +19,10 @@ public class CardPayment{
     
     public static func getCardInfo(){
         
-        guard let info = card else {return}
+        guard let info = card else {
+            print("PLEASE INITIALISE CARD FIRST")
+            return
+        }
         
         let message:String = "This is the card information:\n \(info.cardNumber)\n\(info.cardHolder)"
         

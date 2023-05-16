@@ -9,6 +9,11 @@ import Foundation
 
 
 public struct CardModel {
-    var cardNumber:String
-    var cardHolder:String
+    public var cardNumber:String
+    public var cardHolder:String
+    
+    public init(cardNumber: String, cardHolder: String) {
+        self.cardNumber = cardNumber
+        self.cardHolder = cardHolder
+    }
 }
