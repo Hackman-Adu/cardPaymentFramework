@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
   spec.name         = "CardPaymentFramework"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.3"
   spec.summary      = "This is a card payment sdk. Just for learning SDK Development"
-  spec.homepage     = "https://github.com/Hackman-Adu/cardPaymentFramework.git"
+  spec.homepage     = "https://github.com/Hackman-Adu/cardPaymentFramework"
   spec.license      = "MIT"
   spec.author             = { "Hackman Adu Gyamfi" => "hackmangyamfi31@gmail.com" }
   spec.platform     = :ios, "16.0"
