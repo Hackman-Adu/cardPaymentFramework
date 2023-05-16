@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "CardPaymentFramework"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "This is a card payment sdk. Just for learning SDK Development"
   spec.homepage     = "https://github.com/Hackman-Adu/cardPaymentFramework.git"
   spec.license      = "MIT"
